@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie</title>
+</head>
+<h2>Add a Movie</h2>
+
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td align="left">Title:</td>
+                <td align="left"><input type="text" name="" /></td>
+            </tr>
+            <tr>
+                <td align="left">Release date:</td>
+                <td align="left"><input type="text" name="" /></td>
+            </tr>
+            <tr>
+                <td align="left">Director:</td>
+                <td align="left"><input type="text" name="" /></td>
+            </tr>
+            <tr>
+                <td align="left">Rating:</td>
+                <td align="left"><select id="rating">
+                        <option value="g">G</option>
+                        <option value="pg">PG</option>
+                        <option value="pg-13">PG-13</option>
+                        <option value="r">R</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td align="left">Runtime hours:</td>
+                <td align="left"><input type="number" name="hours" min="0" max="12"></td>
+            </tr>
+            <tr>
+                <td align="left">minutes:</td>
+                <td align="left"><input type="number" name="minutes" min="0" max="59"></td>
+            </tr>
+            <tr>
+                <td align="left">Plot:</td>
+                <td align="left"><textarea name="txtComments" id="txtComments" maxlength="50" rows="2"
+                        cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="fileUpload">Upload Image:</label></td>
+                <td><input type="file" name="fileUpload"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Save"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
